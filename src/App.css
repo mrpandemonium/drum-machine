@@ -8,10 +8,19 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 .drum-pad {
-  border: 1px solid gray;
+  border: 1px solid black;
   width: 100px;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 3px;
+}
+
+#display {
+  text-align: center;
+}
+
+#drum-machine {
+  background-color: gray;
 }
